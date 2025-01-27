@@ -8,7 +8,7 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"  # Acepta el EULA de Minecraft
-      MEMORY: "1G"  # Asigna memoria al servidor (ajusta según necesites)
+      MEMORY: "8G"  # Asigna memoria al servidor (ajusta según necesites)
     volumes:
       - ./data:/data  # Monta el volumen para persistir datos
     stdin_open: true
